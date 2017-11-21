@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="hadoop-hdfs-httpfs-2.7.2">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
+        <dependent-module archiveName="hadoop-auth-2.7.2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hadoop-auth/hadoop-auth">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hadoop-common-2.7.2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hadoop-common/hadoop-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hadoop-annotations-2.7.2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hadoop-annotations/hadoop-annotations">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hadoop-hdfs-2.7.2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hadoop-hdfs/hadoop-hdfs">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="hadoop-hdfs-httpfs"/>
+        <property name="java-output-path" value="/hadoop-hdfs-httpfs/target/classes"/>
+    </wb-module>
+</project-modules>
